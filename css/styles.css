@@ -41,7 +41,15 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+.widget-container-full,
+.widget-container-half {
+    width: 95vw;
+}
+#daily-chart,
+#mobile-chart {
+  width: 45vw;
+  height: 45vh;
+}
 .bell-icon {
   fill: white;
   display: flex;
@@ -143,7 +151,12 @@ main {
   display: flex;
   justify-content: space-between;
   margin-left: 2rem;
+  margin-right: 2rem;
   height: 4rem;
+}
+.alert-banner-close {
+  font-weight: 500;
+  cursor: pointer;
 }
 .tab {
   background-color: #edebf2;
@@ -162,6 +175,7 @@ main {
     list-style-type: none;
     font-size: 1.2rem;
     margin-right: 10%;
+    cursor: pointer;
   }
 .traffic-nav-link.active {
   background-color: #56bf8c;
@@ -286,7 +300,7 @@ strong {
 .form-field {
   background: #edebf2;
   height: 3.5rem;
-  color: #c7c7c7;
+  color: #8e8adb;
 }
 .form-area {
   background: #edebf2;
@@ -325,7 +339,7 @@ textarea::placeholder{
   width: 7rem;
   margin-top: 3.2%;
   border: 1px solid #c7c7c7;
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   background: #8e8adb;
@@ -333,6 +347,7 @@ textarea::placeholder{
 span {
   color: white;
   font-weight: 400;
+
 }
 .form-field {
   height: 3.5rem;
@@ -351,7 +366,7 @@ span {
 .button-disabled {
   height: 3.5rem;
   border: 1px solid #c7c7c7;
-  border-radius: 10px;
+  border-radius: 5px;
   font-size: 1.2rem;
   margin: 2% 1% 3rem 1%;
   color: white;
@@ -364,7 +379,11 @@ span {
 .button-disabled {
   background: #cacbdb;
 }
-
+.top {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 /* Media query for 768px */
 
 @media (min-width: 768px) {
@@ -457,5 +476,61 @@ span {
 .traffic-nav li {
   margin-left: 5%;
 }
+/*
+.daily {
+  grid-column: 1 /2;
+}
+.mobile {
+        grid-column: 2 / 3;
+    }
+
+    .widget-container-full {
+        width: 90vw;
+    }
+    .widget-container-half {
+        width: 40vw;
+    }*/
+
+  .two-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  .widget-container-full {
+      width: 90vw;
+      margin: 0;
+  }
+  .widget-container-half {
+      width: 40vw;
+  }
+.main {
+  margin-left: 1rem;
+}
 }
 
+
+
+@media (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: 55px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header" "navigation main";
+}
+
+.activity-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.members-text {
+  text-align: left;
+  margin-right: 3%;
+  margin-left: 1rem;
+}
+.member-container p {
+  margin-left: 2rem;
+}
+.recent {
+  margin-top:
+}
