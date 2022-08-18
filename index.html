@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/toggle-switch.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
@@ -100,6 +101,7 @@
   </section>
 
   <!-- section for bar graph -->
+  <div class="two-charts">
   <section class="daily">
     <h3>DAILY TRAFFIC</h3>
 
@@ -117,7 +119,7 @@
     <canvas id="mobile-chart"></canvas>
   </div>
 </section>
-
+</div>
 <!-- Social Stats section -->
 
 <section class="social">
@@ -167,6 +169,8 @@
 
 <!-- New members section -->
 <!--<div class="members-widget" id="members"> -->
+<section class="activity-board">
+
 <div class="member-container">
 <section class="members">
    <h3>NEW MEMBERS</h3>
@@ -256,6 +260,7 @@
 
 </section>
 
+</section>
 <!-- Messaging widget -->
 <div class="message-setting">
 <section class="message">
@@ -319,10 +324,13 @@
 
 </div>
 
-
+<div class="top">
+  <a href="#">Back to Top</a>
+</div>
 
 </main>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="js/charts.js"></script>
 <script src="js/app.js"></script>
 
