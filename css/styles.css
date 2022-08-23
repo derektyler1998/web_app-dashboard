@@ -1,5 +1,6 @@
 
 
+
 *{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -520,17 +521,22 @@ span {
 .activity-board {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  
+
 }
 
 .members-text {
   text-align: left;
   margin-right: 3%;
   margin-left: 1rem;
+  font-size: .8rem;
 }
 .member-container p {
   margin-left: 2rem;
 }
 .recent {
   margin-top:
+}
+.settings-message {
+  display: grid;
+  grid-template-columns: 50% 1fr;
 }
