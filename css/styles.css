@@ -1,6 +1,4 @@
 
-
-
 *{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -56,6 +54,7 @@ header {
   display: flex;
   height: 2rem;
   margin-left: 2rem;
+  cursor: pointer;
 }
 .bell-dot {
   height: 7px;
@@ -531,12 +530,38 @@ span {
   font-size: .8rem;
 }
 .member-container p {
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-.recent {
-  margin-top:
-}
-.settings-message {
+
+.message-setting {
   display: grid;
   grid-template-columns: 50% 1fr;
+  font-size: .7rem;
+  border-bottom: 1px solid  #c7c7c7;
+  margin-bottom: 1rem;
+  /*gap: 2rem;*/
+}
+.btn-toggle {
+  margin-bottom: 1.6rem;
+  border-radius: 10px;
+}
+.form-settings {
+  margin-top: 2rem;
+}
+.recent-container {
+  border-left: 1px solid  #c7c7c7;
+}
+.message {
+  margin-right: 15px;
+}
+.settings {
+  border-left: 1px solid  #c7c7c7;
+}
+#timezone,
+.settings-button {
+  margin-left: 15px;
+}
+.widget-container {
+  border-bottom: none;
 }
