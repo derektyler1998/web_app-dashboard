@@ -252,6 +252,7 @@ main {
 .activity-status {
   padding-bottom: 1rem;
   font-size: 1.2rem;
+  margin-right: 1.6rem;
 }
 .members-text,
 .recent-posts {
