@@ -1,4 +1,5 @@
 
+
 *{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -564,4 +565,7 @@ span {
 }
 .widget-container {
   border-bottom: none;
+}
+.form-field {
+  width: 95%;
 }
