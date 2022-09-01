@@ -13,7 +13,7 @@ const hourly = {
         backgroundColor: "rgba(213,214,236, 0.5)",
         borderColor: "rgba(15, 4, 145, 0.2)",
         color: "rgb(188, 174, 212)",
-        borderWidth: 2,
+        borderWidth: 0,
         lineTension: 0.25,
         fill: true,
     }],
@@ -24,16 +24,16 @@ const hourly = {
         },
         layout: {
             padding: {
-                left: 50,
-                right: 50,
+                left: 10,
+                right: 10,
                 top: 30,
                 bottom: 30
             },
         },
         scales: {
             y: {
-                min: 0,
-                max: 125,
+                min: 2,
+                max: 200,
                 ticks: {
                     stepSize: 25,
                     color: "rgb(8, 2, 79)"
@@ -72,8 +72,8 @@ const daily = {
         },
         layout: {
             padding: {
-                left: 50,
-                right: 50,
+                left: 30,
+                right: 30,
                 top: 30,
                 bottom: 30
             },
@@ -119,8 +119,8 @@ const weekly = {
         },
         layout: {
             padding: {
-                left: 50,
-                right: 50,
+                left: 35,
+                right: 35,
                 top: 30,
                 bottom: 30
             },
@@ -130,7 +130,7 @@ const weekly = {
                 min: 0,
                 max: 2500,
                 ticks: {
-                    stepSize: 500,
+                    stepSize: 950,
                     color: "rgb(8, 2, 79)"
                 }
             },
@@ -166,8 +166,8 @@ const monthly = {
         },
         layout: {
             padding: {
-                left: 50,
-                right: 50,
+                left: 40,
+                right: 40,
                 top: 30,
                 bottom: 30
             },
@@ -273,9 +273,7 @@ bar = new Chart(dailyBar, {
             backgroundColor: [
                 '#8e8adb',
             ],
-            //borderColor: [
-              //  '#605487',
-          //  ],
+
           borderColor: [
             '#8e8adb',
           ],
@@ -292,7 +290,7 @@ bar = new Chart(dailyBar, {
         layout: {
             padding: {
                 left: 10,
-                right: 3,
+                right: 5,
                 top: 10,
                 bottom: 30
             },
@@ -347,7 +345,7 @@ doughnut = new Chart(mobileDoughnut, {
         },
         layout: {
             padding: {
-                left: 30,
+                left: 25,
                 right: 20,
                 top: 30,
                 bottom: 30
