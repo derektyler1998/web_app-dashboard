@@ -106,10 +106,6 @@ header {
   height: 2.7rem;
   width: 2.7rem;
   fill: white;
-/*  height: 2.7rem;
-  padding: 1%;
-  fill: white;
-  margin-top: 20%;*/
 }
 
 /* Main dashboard */
@@ -133,17 +129,13 @@ main {
 .dashboard {
   margin-right: 4%;
 }
-/*
 
-.dashboard {
-  margin-bottom: 1%;
-  margin-right: 5%;
-  margin-left: 2%;
-}*/
+
+
 .alert {
   background-color: #8e8adb;
   margin: 1.2rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   border: 1px solid #c7c7c7;
   border-radius: 10px;
 }
@@ -252,7 +244,7 @@ main {
 .activity-status {
   padding-bottom: 1rem;
   font-size: 1.2rem;
-  margin-right: 1.6rem;
+  margin-right: 1.5rem;
 }
 .members-text,
 .recent-posts {
@@ -429,10 +421,8 @@ span {
 .profile-image {
   margin-left: 1rem;
   margin-bottom: 3rem;
-}/*
-.main {
-  display: grid;
-}*/
+}
+
 .daily {
  grid-column: 1 / 2;
  border: 1px solid #c7c7c7;
@@ -473,25 +463,11 @@ span {
 .traffic-nav {
     justify-content: space-between;
     align-items: center;
-    margin-left: 45%;
+    margin-left: 38%;
 }
 .traffic-nav li {
   margin-left: 5%;
 }
-/*
-.daily {
-  grid-column: 1 /2;
-}
-.mobile {
-        grid-column: 2 / 3;
-    }
-
-    .widget-container-full {
-        width: 90vw;
-    }
-    .widget-container-half {
-        width: 40vw;
-    }*/
 
   .two-charts {
     display: grid;
